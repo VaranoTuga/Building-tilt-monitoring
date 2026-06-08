@@ -14,11 +14,11 @@ const char* ssid     = "Sporthall";
 const char* password = "";
 
 // ========= KONFIGURASI HIVEMQ CLOUD =========
-const char* mqtt_server = "022f2c5e9cbd472497f3ba11a75c43fa.s1.eu.hivemq.cloud";
-const int mqtt_port = 8883;
-const char* mqtt_username = "hivemq.webclient.1779087469304";
-const char* mqtt_password = "9pVH<0T12uyzwK,Ra#*B";
-const char* mqtt_client_id = "esp32-tilt-sensor-01";
+const char* mqtt_server   = "YOUR_CLUSTER.s1.eu.hivemq.cloud"; // Hostname cluster Anda
+const int   mqtt_port     = 8883; // Port MQTT SSL
+const char* mqtt_username = "YOUR_USERNAME"; // Username HiveMQ
+const char* mqtt_password = "YOUR_PASSWORD";// Password HiveMQ
+const char* mqtt_client_id = "esp32-tilt-sensor-02";
 
 const char* topic_sensor = "building-tilt/sensor-data";
 const char* topic_commands = "building-tilt/commands";
