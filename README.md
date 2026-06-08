@@ -21,7 +21,6 @@ Sistem pemantauan kemiringan gedung berbasis **ESP32 + Web Dashboard** secara re
 - [Format Data](#-format-data)
 - [Level Status Peringatan](#-level-status-peringatan)
 - [Jadwal Pengiriman Data](#-jadwal-pengiriman-data)
-- [Informasi Gedung](#-informasi-gedung)
 
 ---
 
@@ -313,19 +312,6 @@ Status ditentukan dari nilai absolut terbesar antara sudut Roll dan Pitch **Sens
 | SD Card (ESP1) | Setiap 30 menit | Menit 0 dan 30 |
 
 Waktu disinkronkan via NTP ke zona **UTC+7 (WIB)** menggunakan server `pool.ntp.org`.
-
----
-
-## 🏢 Informasi Gedung
-
-| Atribut | Detail |
-|---|---|
-| **Nama** | Gedung Sport Hall |
-| **Institusi** | Universitas Katolik Soegijapranata |
-| **Alamat** | Jl. Pawiyatan Luhur IV/1, Bendan Duwur, Gajahmungkur, Semarang, Jawa Tengah |
-| **Tahun Dibangun** | 2013 |
-| **Luas Bangunan** | 2.470 m² |
-| **Kapasitas** | 2.000 orang |
 
 ---
 
