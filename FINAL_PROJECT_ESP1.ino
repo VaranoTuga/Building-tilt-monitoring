@@ -17,10 +17,10 @@ const char* password = "";
 
 // ========= KONFIGURASI HIVEMQ CLOUD =========
 // GANTI DENGAN KONFIGURASI CLUSTER ANDA
-const char* mqtt_server = "d97fa97042434738a712d06b663db901.s1.eu.hivemq.cloud";  // Hostname cluster Anda
-const int mqtt_port = 8883;  // Port MQTT SSL
-const char* mqtt_username = "hivemq.webclient.1769348223798";  // Username HiveMQ
-const char* mqtt_password = "E0MR9o&!I7dP1zct#:bD";  // Password HiveMQ
+const char* mqtt_server   = "YOUR_CLUSTER.s1.eu.hivemq.cloud"; // Hostname cluster Anda
+const int   mqtt_port     = 8883; // Port MQTT SSL
+const char* mqtt_username = "YOUR_USERNAME"; // Username HiveMQ
+const char* mqtt_password = "YOUR_PASSWORD";// Password HiveMQ
 const char* mqtt_client_id = "esp32-tilt-sensor-01";
 
 // Topics MQTT
